@@ -6,27 +6,27 @@ const NavbarEl = () => {
       <div className="text-decoration-none">
         <div>
           <h1>
-            <a className="text-white text-decoration-none" href="#about">
-              William Skillas' Portfolio Page
+            <a className="text-white text-decoration-none headertitle" href="#about">
+              William Skillas' Portfolio
             </a>
           </h1>
         </div>
         <div className="d-flex justify-content-end">
           <div>
-            <p>
+            <h4>
               <a
                 href="#projects"
-                className="m-3 text-white text-decoration-none"
+                className="m-5 text-white "
               >
-                My Projects
+                Projects
               </a>
-              <a href="#contact" className="text-white text-decoration-none">
+              <a href="#contact" className="text-white">
                 Contact Me
               </a>
-              <a href="#resume" className="m-3 text-white text-decoration-none">
+              <a href="#resume" className="m-5 text-white">
                 Resume
               </a>
-            </p>
+            </h4>
           </div>
         </div>
       </div>

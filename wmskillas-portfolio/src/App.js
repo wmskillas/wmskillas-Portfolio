@@ -4,11 +4,11 @@ import NavbarEl from "./components/NavbarEl";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <main className="bodybg text-light">
+    <main className="bodybg text-white">
       <NavbarEl />
       <Projects />
       <About />

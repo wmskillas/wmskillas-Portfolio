@@ -42,12 +42,17 @@
 }
 
 .headerbg {
-  background-color: rgb(33, 43, 93);
+  background-color: darkslategrey;
 }
 
 main {
   background-color: rgb(37, 33, 63);
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .myimage {
   width: 10rem;
+}
+
+.headertitle {
+  font-size: 5rem;
 }
