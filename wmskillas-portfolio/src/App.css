@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.cardsize {
+  width: 38rem;
+}
+
+.headerbg {
+  background-color: rgb(33, 43, 93);
+}
+
+main {
+  background-color: rgb(37, 33, 63);
+}
+.myimage {
+  width: 10rem;
+}
