@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import Me from "../assets/images/20210828_222823.jpg";
+import Me from "../assets/images/IMG_2501.jpg";
 
 const About = () => {
   return (

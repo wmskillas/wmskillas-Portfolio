@@ -1,11 +1,36 @@
 import React from "react";
 import { Icon } from '@iconify/react';
+import Film from '../assets/images/scann_20160414_0001.jpg'
 
 const Projects = () => {
   return (
     <section className="" id="projects">
       <h2 className="text-center text-white my-4">Projects</h2>
       <div className=" container col-8-md d-flex flex-wrap text-dark">
+      <div className="card cardsize m-3">
+          <img
+            src={Film}
+            alt="filmphoto.img"
+          ></img>
+          <div className="card-body headerbg text-white">
+            <h2 className="card-title border-bottom border-dark">
+              <strong>Photography and Film</strong>
+            </h2>
+            <p className="card-text border-bottom border-dark">
+              I developed a place where a professional could go to post and share their work. This is a Front End App using HTML, CSS, Bootstrap, JavaScript, and React.
+              Created an easy-to-use and aesthetically nice website that allows visitors to efficiently navigate the website on any device.
+            </p>
+            <div className="text-center">
+            <a href="https://github.com/wmskillas/Joseph-Skillas-Portfolio" className="text-white">
+              On GitHub
+            </a>
+            <br />
+            <a href="https://wmskillas.github.io/Joseph-Skillas-Portfolio/" className="text-white">
+              Deployed
+            </a>
+            </div>
+          </div>
+        </div>
         <div className="card cardsize m-3">
           <img
             src="https://images.unsplash.com/photo-1607357221935-9133bb4b44ca?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270"

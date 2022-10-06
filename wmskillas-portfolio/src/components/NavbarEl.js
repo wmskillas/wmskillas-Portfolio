@@ -23,9 +23,9 @@ const NavbarEl = () => {
               <a href="#contact" className="text-white">
                 Contact Me
               </a>
-              <a href="#resume" className="m-5 text-white">
+              {/* <a href="#resume" className="m-5 text-white">
                 Resume
-              </a>
+              </a> */}
             </h4>
           </div>
         </div>

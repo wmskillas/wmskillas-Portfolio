@@ -47,10 +47,10 @@
 
 main {
   background-color: rgb(37, 33, 63);
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .myimage {
-  width: 10rem;
+  max-height: 25rem;
 }
 
 .headertitle {
