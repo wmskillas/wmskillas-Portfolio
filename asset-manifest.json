@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/wmskillas-Portfolio/static/css/main.d6fe3b10.css",
-    "main.js": "/wmskillas-Portfolio/static/js/main.b691354b.js",
+    "main.css": "/wmskillas-Portfolio/static/css/main.b57fe784.css",
+    "main.js": "/wmskillas-Portfolio/static/js/main.1f2d2808.js",
     "static/js/787.e4d92f3b.chunk.js": "/wmskillas-Portfolio/static/js/787.e4d92f3b.chunk.js",
     "static/media/IMG_2501.jpg": "/wmskillas-Portfolio/static/media/IMG_2501.3e58191a497453328489.jpg",
     "static/media/scann_20160414_0001.jpg": "/wmskillas-Portfolio/static/media/scann_20160414_0001.a75f91aefe859253f626.jpg",
     "index.html": "/wmskillas-Portfolio/index.html",
-    "main.d6fe3b10.css.map": "/wmskillas-Portfolio/static/css/main.d6fe3b10.css.map",
-    "main.b691354b.js.map": "/wmskillas-Portfolio/static/js/main.b691354b.js.map",
+    "main.b57fe784.css.map": "/wmskillas-Portfolio/static/css/main.b57fe784.css.map",
+    "main.1f2d2808.js.map": "/wmskillas-Portfolio/static/js/main.1f2d2808.js.map",
     "787.e4d92f3b.chunk.js.map": "/wmskillas-Portfolio/static/js/787.e4d92f3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6fe3b10.css",
-    "static/js/main.b691354b.js"
+    "static/css/main.b57fe784.css",
+    "static/js/main.1f2d2808.js"
   ]
 }
