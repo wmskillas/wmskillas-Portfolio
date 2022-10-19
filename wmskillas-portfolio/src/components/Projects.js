@@ -4,15 +4,15 @@ import Film from '../assets/images/scann_20160414_0001.jpg'
 
 const Projects = () => {
   return (
-    <section className="" id="projects">
-      <h2 className="text-center text-white my-4">Projects</h2>
+    <section className="textColor" id="projects">
+      <h1 className="text-center textColor my-5 titleSize">My Projects</h1>
       <div className=" container col-8-md d-flex flex-wrap text-dark">
       <div className="card cardsize m-3">
           <img
             src={Film}
             alt="filmphoto.img"
           ></img>
-          <div className="card-body headerbg text-white">
+          <div className="card-body headerbg textColor">
             <h2 className="card-title border-bottom border-dark">
               <strong>Photography and Film</strong>
             </h2>
@@ -21,11 +21,11 @@ const Projects = () => {
               Created an easy-to-use and aesthetically nice website that allows visitors to efficiently navigate the website on any device.
             </p>
             <div className="text-center">
-            <a href="https://github.com/wmskillas/Joseph-Skillas-Portfolio" className="text-white">
+            <a href="https://github.com/wmskillas/Joseph-Skillas-Portfolio" className="textColor">
               On GitHub
             </a>
             <br />
-            <a href="https://wmskillas.github.io/Joseph-Skillas-Portfolio/" className="text-white">
+            <a href="https://wmskillas.github.io/Joseph-Skillas-Portfolio/" className="textColor">
               Deployed
             </a>
             </div>
@@ -36,7 +36,7 @@ const Projects = () => {
             src="https://images.unsplash.com/photo-1607357221935-9133bb4b44ca?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270"
             alt="conspiracy.img"
           ></img>
-          <div className="card-body headerbg text-white">
+          <div className="card-body headerbg textColor">
             <h2 className="card-title border-bottom border-dark">
               <strong>The Theorist</strong>
             </h2>
@@ -48,11 +48,11 @@ const Projects = () => {
               and password as well as submit an email address.
             </p>
             <div className="text-center">
-            <a href="https://github.com/Jcouch5/The-Theorist" className="text-white">
+            <a href="https://github.com/Jcouch5/The-Theorist" className="textColor">
               On GitHub
             </a>
             <br />
-            <a href="https://desolate-peak-38823.herokuapp.com/" className="text-white">
+            <a href="https://desolate-peak-38823.herokuapp.com/" className="textColor">
               Deployed
             </a>
             </div>
@@ -63,7 +63,7 @@ const Projects = () => {
             src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270"
             alt="conspiracy.img"
           ></img>
-          <div className="card-body headerbg text-white">
+          <div className="card-body headerbg textColor">
             <h3 className="card-title border-bottom border-dark">
               <strong>Recipe Generator</strong>
             </h3>
@@ -76,14 +76,14 @@ const Projects = () => {
             <div className="text-center">
             <a
               href="https://github.com/wmskillas/Recipe-Generator"
-              className="text-white"
+              className="textColor"
             >
               On GitHub
             </a>
             <br />
             <a
               href="https://wmskillas.github.io/Recipe-Generator/"
-              className="text-white"
+              className="textColor"
             >
               Deployed
             </a>

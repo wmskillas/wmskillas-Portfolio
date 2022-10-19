@@ -6,7 +6,7 @@ const NavbarEl = () => {
       <div className="text-decoration-none">
         <div>
           <h1>
-            <a className="text-white text-decoration-none headertitle" href="#about">
+            <a className=" text-decoration-none headertitle" href="#about">
               William Skillas' Portfolio
             </a>
           </h1>
@@ -16,11 +16,11 @@ const NavbarEl = () => {
             <h4>
               <a
                 href="#projects"
-                className="m-5 text-white "
+                className="m-5 navbarColor"
               >
                 Projects
               </a>
-              <a href="#contact" className="text-white">
+              <a href="#contact" className="navbarColor">
                 Contact Me
               </a>
               {/* <a href="#resume" className="m-5 text-white">

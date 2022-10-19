@@ -42,11 +42,11 @@
 }
 
 .headerbg {
-  background-color: darkslategrey;
+  background-color: #0b0c10;
 }
 
 main {
-  background-color: rgb(37, 33, 63);
+  background-color: #1f2833;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .myimage {
@@ -55,4 +55,39 @@ main {
 
 .headertitle {
   font-size: 5rem;
+  color: #66fcf1;
+}
+
+.navbarColor {
+  text-decoration: none;
+  color: #45a29e;
+}
+
+.textColor {
+  color: #c5c6c7;
+}
+
+.hide {
+  display: none;
+}
+
+.myEmail:hover + .hide {
+  display: block;
+  color: #c5c6c7;
+}
+.emailMargin {
+  margin-right: 40px;
+}
+
+.phoneMargin {
+  margin-left: 40px;
+}
+
+.hoverText {
+  font-size: 15px;
+}
+
+.titleSize {
+  font-size: 40px;
+  font-weight: bold;
 }

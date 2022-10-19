@@ -8,7 +8,7 @@ const About = () => {
       <div className="container my-5">
         <div className=" d-flex m-3">
           <img className="myimage d-flex" src={Me}></img>
-          <div className="m-3">
+          <div className="m-3 textColor">
             <h3>Hi, I'm William Skillas!</h3>
             <br />
             <p className="">
@@ -35,11 +35,11 @@ const About = () => {
             </a>
           </div> */}
             <div>
-              <a href="https://github.com/wmskillas" className="text-white">
+              <a href="https://github.com/wmskillas" className="textColor">
                 GitHub
                 <Icon
                   icon="carbon:logo-github"
-                  color="white"
+                  color=""
                   width="30"
                   height="30"
                 />
