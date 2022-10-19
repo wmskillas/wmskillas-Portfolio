@@ -6,13 +6,13 @@ const Projects = () => {
   return (
     <section className="textColor" id="projects">
       <h1 className="text-center textColor my-5 titleSize">My Projects</h1>
-      <div className=" container col-8-md d-flex flex-wrap text-dark">
-      <div className="card cardsize m-3">
+      <div className=" container col-8-md projectWrap">
+      <div className="card cardSize m-3">
           <img
             src={Film}
             alt="filmphoto.img"
           ></img>
-          <div className="card-body headerbg textColor">
+          <div className="card-body headerBg textColor">
             <h2 className="card-title border-bottom border-dark">
               <strong>Photography and Film</strong>
             </h2>
@@ -31,12 +31,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card cardsize m-3">
+        <div className="card cardSize m-3">
           <img
             src="https://images.unsplash.com/photo-1607357221935-9133bb4b44ca?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270"
             alt="conspiracy.img"
           ></img>
-          <div className="card-body headerbg textColor">
+          <div className="card-body headerBg textColor">
             <h2 className="card-title border-bottom border-dark">
               <strong>The Theorist</strong>
             </h2>
@@ -58,12 +58,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card cardsize m-3">
+        <div className="card cardSize m-3">
           <img
             src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270"
             alt="conspiracy.img"
           ></img>
-          <div className="card-body headerbg textColor">
+          <div className="card-body headerBg textColor">
             <h3 className="card-title border-bottom border-dark">
               <strong>Recipe Generator</strong>
             </h3>

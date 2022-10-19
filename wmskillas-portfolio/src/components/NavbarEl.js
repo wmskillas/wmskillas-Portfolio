@@ -2,11 +2,11 @@ import React from "react";
 
 const NavbarEl = () => {
   return (
-    <header className=" p-4 text-light text-center headerbg">
+    <header className=" p-4 text-light text-center headerBg">
       <div className="text-decoration-none">
         <div>
           <h1>
-            <a className=" text-decoration-none headertitle" href="#about">
+            <a className=" text-decoration-none headerTitle" href="#about">
               William Skillas' Portfolio
             </a>
           </h1>
@@ -21,7 +21,7 @@ const NavbarEl = () => {
                 Projects
               </a>
               <a href="#contact" className="navbarColor">
-                Contact Me
+                Contact
               </a>
               {/* <a href="#resume" className="m-5 text-white">
                 Resume

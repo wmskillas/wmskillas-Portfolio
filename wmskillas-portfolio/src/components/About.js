@@ -6,11 +6,11 @@ const About = () => {
   return (
     <section id="about">
       <div className="container my-5">
-        <div className=" d-flex m-3">
-          <img className="myimage d-flex" src={Me}></img>
-          <div className="m-3 textColor">
-            <h3>Hi, I'm William Skillas!</h3>
-            <br />
+        <div className="display-flex aboutWrap">
+          <div>
+          <img className="myImage aboutMargin" src={Me}></img>
+          <div className="m-3 textColor aboutText">
+            <h3 className="aboutText">Hello, I'm William Skillas!</h3>
             <p className="">
               I am a Junior Developer who is currently learning MERN stack and
               am looking to use and expand my knowledge on the subject. I
@@ -46,6 +46,7 @@ const About = () => {
               </a>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>

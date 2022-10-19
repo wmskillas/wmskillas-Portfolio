@@ -37,11 +37,11 @@
   }
 }
 
-.cardsize {
+.cardSize {
   width: 38rem;
 }
 
-.headerbg {
+.headerBg {
   background-color: #0b0c10;
 }
 
@@ -49,11 +49,12 @@ main {
   background-color: #1f2833;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.myimage {
-  max-height: 25rem;
+.myImage {
+  max-height: 23rem;
+  float: left;
 }
 
-.headertitle {
+.headerTitle {
   font-size: 5rem;
   color: #66fcf1;
 }
@@ -90,4 +91,41 @@ main {
 .titleSize {
   font-size: 40px;
   font-weight: bold;
+}
+
+.projectWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aboutWrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.aboutMargin {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.navAdjust {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 340px) {
+  .headerTitle {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 417px) {
+
+  .myImage {
+    display: flex;
+    float: none;
+    padding-left: 10px;
+  }
 }
