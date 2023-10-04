@@ -14,18 +14,18 @@ const NavbarEl = () => {
         <div className="d-flex justify-content-end">
           <div>
             <h4>
-              <a
-                href="#projects"
-                className="m-5 navbarColor"
-              >
+              <a href="#projects" className="m-5 navbarColor">
                 Projects
               </a>
               <a href="#contact" className="navbarColor">
                 Contact
               </a>
-              {/* <a href="#resume" className="m-5 text-white">
+              <a
+                href="https://drive.google.com/file/d/1wRM0IqNqPYSoyNwjZ3TLc_IY97fRUSJT/view?usp=sharing"
+                className="m-5 navbarColor"
+              >
                 Resume
-              </a> */}
+              </a>
             </h4>
           </div>
         </div>

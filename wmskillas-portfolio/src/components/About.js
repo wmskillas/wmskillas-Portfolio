@@ -8,45 +8,36 @@ const About = () => {
       <div className="container my-5">
         <div className="display-flex aboutWrap">
           <div>
-          <img className="myImage aboutMargin" src={Me}></img>
-          <div className="m-3 textColor aboutText">
-            <h3 className="aboutText">Hello, I'm William Skillas!</h3>
-            <p className="">
-              I am a Junior Developer who is currently learning MERN stack and
-              am looking to use and expand my knowledge on the subject. I
-              definitely enjoy working in the front end more than anything else
-              but I can do anything that is required of me. I love working and
-              learning with others and can't wait to find a place where I can do
-              these things and more!
-            </p>
-            {/* <div>
-            <a href="#projects" className="m-3 text-white">
-              My Projects
-            </a>
-          </div>
-          <div>
-            <a href="#contact" className="text-white">
-              Contact Me
-            </a>
-          </div>
-          <div>
-            <a href="#resume" className="m-3 text-white">
-              My Resume
-            </a>
-          </div> */}
-            <div>
-              <a href="https://github.com/wmskillas" className="textColor">
-                GitHub
-                <Icon
-                  icon="carbon:logo-github"
-                  color=""
-                  width="30"
-                  height="30"
-                />
-              </a>
+            <img
+              className="myImage aboutMargin"
+              src={Me}
+              alt="unavailable"
+            ></img>
+            <div className="m-3 textColor aboutText">
+              <h3 className="aboutText">Hello, my name is William Skillas,</h3>
+              <p className="">
+                I am a recent graduate of Georgia Institute of Technology/2U's
+                Full Stack Web Development Bootcamp with a passion for Front End
+                Development. I have a strong foundation in HTML, CSS,
+                JavaScript, and React, and I am eager to learn more about these
+                and other technologies. I am a team player and I am always
+                willing to go the extra mile. I am excited to find a position
+                where I can use my skills and knowledge to contribute to a team
+                and create innovative web applications.
+              </p>
+              <div>
+                <a href="https://github.com/wmskillas" className="textColor">
+                  GitHub
+                  <Icon
+                    icon="carbon:logo-github"
+                    color=""
+                    width="30"
+                    height="30"
+                  />
+                </a>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </section>
