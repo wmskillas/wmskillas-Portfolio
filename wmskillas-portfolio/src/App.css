@@ -116,6 +116,10 @@ main {
   padding-right: 10px;
 }
 
+.hoverEffect:hover {
+  color: #1686fc;
+}
+
 .controlEmail::after {
   content: "Click to View";
   font-size: 20px;

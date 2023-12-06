@@ -9,7 +9,7 @@ const Contact = () => {
         <div>
           <input type="checkbox" id="toggle" className="visually-hidden" />
           <label htmlFor="toggle">
-            <h4 className="myEmail emailMargin">Email:</h4>
+            <h4 className="myEmail emailMargin hoverEffect">Email:</h4>
           </label>
           <div className=" emailMargin controlEmail"></div>
         </div>
@@ -23,7 +23,7 @@ const Contact = () => {
         <div>
           <input type="checkbox" id="toggled" className="visually-hidden" />
           <label htmlFor="toggled">
-            <h4 className="myEmail phoneMargin">Phone:</h4>
+            <h4 className="myEmail phoneMargin hoverEffect">Phone:</h4>
           </label>
           <div className="phoneMargin controlPhone"></div>
         </div>
