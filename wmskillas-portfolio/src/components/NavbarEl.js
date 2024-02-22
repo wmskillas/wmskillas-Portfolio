@@ -21,7 +21,7 @@ const NavbarEl = () => {
                 Contact
               </a>
               <a
-                href="https://drive.google.com/file/d/1wRM0IqNqPYSoyNwjZ3TLc_IY97fRUSJT/view?usp=sharing"
+                href="https://drive.google.com/file/d/1D45a58JZD7oFZeAbysMT8fjQwqNojsx7/view?usp=sharing"
                 className="m-5 navbarColor"
               >
                 Resume
