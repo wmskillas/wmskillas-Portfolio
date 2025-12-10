@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/wmskillas-Portfolio/static/css/main.4f67e072.css",
-    "main.js": "/wmskillas-Portfolio/static/js/main.47b3aa0a.js",
-    "static/js/787.e4d92f3b.chunk.js": "/wmskillas-Portfolio/static/js/787.e4d92f3b.chunk.js",
+    "main.css": "/wmskillas-Portfolio/static/css/main.604be542.css",
+    "main.js": "/wmskillas-Portfolio/static/js/main.20707243.js",
+    "static/js/488.98664089.chunk.js": "/wmskillas-Portfolio/static/js/488.98664089.chunk.js",
+    "static/media/LandingPageScreenshot.png": "/wmskillas-Portfolio/static/media/LandingPageScreenshot.0032cee168287d9764ae.png",
+    "static/media/ProductPageScreenshot.png": "/wmskillas-Portfolio/static/media/ProductPageScreenshot.3f85df65a7b716333fbf.png",
+    "static/media/JoinTheClub.png": "/wmskillas-Portfolio/static/media/JoinTheClub.171ae5dea43712b25ada.png",
     "static/media/IMG_2501.jpg": "/wmskillas-Portfolio/static/media/IMG_2501.3e58191a497453328489.jpg",
+    "static/media/FAQScreenshot.png": "/wmskillas-Portfolio/static/media/FAQScreenshot.4607e009da6459c1cf26.png",
     "static/media/scann_20160414_0001.jpg": "/wmskillas-Portfolio/static/media/scann_20160414_0001.a75f91aefe859253f626.jpg",
     "index.html": "/wmskillas-Portfolio/index.html",
-    "main.4f67e072.css.map": "/wmskillas-Portfolio/static/css/main.4f67e072.css.map",
-    "main.47b3aa0a.js.map": "/wmskillas-Portfolio/static/js/main.47b3aa0a.js.map",
-    "787.e4d92f3b.chunk.js.map": "/wmskillas-Portfolio/static/js/787.e4d92f3b.chunk.js.map"
+    "main.604be542.css.map": "/wmskillas-Portfolio/static/css/main.604be542.css.map",
+    "main.20707243.js.map": "/wmskillas-Portfolio/static/js/main.20707243.js.map",
+    "488.98664089.chunk.js.map": "/wmskillas-Portfolio/static/js/488.98664089.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f67e072.css",
-    "static/js/main.47b3aa0a.js"
+    "static/css/main.604be542.css",
+    "static/js/main.20707243.js"
   ]
 }
