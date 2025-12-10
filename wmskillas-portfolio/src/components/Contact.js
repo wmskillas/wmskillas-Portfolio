@@ -1,4 +1,3 @@
-import React from "react";
 import { Icon } from "@iconify/react";
 
 const Contact = () => {
@@ -20,13 +19,14 @@ const Contact = () => {
             </a>
           </h4>
         </div>
-        <div>
+        {/* Was being used to show my phone number on the contact page but I decided it was more secure to not have that on their but instead saving it for potential other contact methods */}
+        {/* <div>
           <input type="checkbox" id="toggled" className="visually-hidden" />
           <label htmlFor="toggled">
             <h4 className="myEmail phoneMargin hoverEffect">Phone:</h4>
           </label>
           <div className="phoneMargin controlPhone"></div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

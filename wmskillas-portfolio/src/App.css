@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1f2833;
+}
+
+.travelNannyBody {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1f2833;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -41,6 +55,10 @@
   width: 38rem;
 }
 
+.card-text {
+  color: #c5c6c7;
+}
+
 .headerBg {
   background-color: #0b0c10;
 }
@@ -52,6 +70,9 @@ main {
 .myImage {
   max-height: 23rem;
   float: left;
+}
+.travelNannyImage {
+  max-height: 60rem;
 }
 
 .headerTitle {
@@ -129,15 +150,15 @@ main {
 #toggle:checked ~ .controlEmail::after {
   content: "wmskillas@gmail.com";
 }
-
-.controlPhone::after {
+/* Was being used in order to show phone number on my contact page but I decided it was more secure to not allow that anymore and just go through email or Linkedin */
+/* .controlPhone::after {
   content: "Click to View";
   font-size: 20px;
 }
 
 #toggled:checked ~ .controlPhone::after {
-  content: "770-401-2902";
-}
+  content: "Email me for Number";
+} */
 
 label {
   background: #1f2833;

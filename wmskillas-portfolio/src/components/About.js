@@ -1,4 +1,3 @@
-import React from "react";
 import { Icon } from "@iconify/react";
 import Me from "../assets/images/IMG_2501.jpg";
 
